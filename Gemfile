@@ -17,25 +17,25 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-gem 'sass-rails', '4.0.2'
+gem 'sass-rails', '~> 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '2.1.1'
+gem 'uglifier', '>= 2.1.1'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '4.0.1'
+gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '3.0.4'
+gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '1.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '1.0.2'
+gem 'jbuilder', '~> 1.0.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
